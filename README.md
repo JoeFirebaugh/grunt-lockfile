@@ -45,7 +45,7 @@ File to use as a lock.
 
 ### Usage
 ```js
-  grunt.registerTask('default', ['lockfile', 'jslint', 'build', 'concat', 'removelock']);
+grunt.registerTask('default', ['lockfile', 'jslint', 'build', 'concat', 'removelock']);
 ```
 
 You should call the lockfile task first so it checks/creates the lock file for the build.  Aftewards, you would perform all of your other build tasks and follow with the 'removelock' task to delete the lock file after the build completes.
