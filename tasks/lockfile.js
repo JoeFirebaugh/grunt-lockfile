@@ -26,7 +26,7 @@ module.exports = function (grunt) {
     if (grunt.file.exists(lockFile)) {
       //grunt is already running or the lock file hasn't been deleted
       //we return an error code of 0 so Webstorm doesn't display anything about the failed attempt
-      grunt.fail.warn("grunt.lock exists, build may already be running...",0);
+      grunt.fail.warn(lockFile + " exists, build may already be running...",0);
     }
     else {
       touch(lockFile);
