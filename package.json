@@ -1,6 +1,6 @@
 {
   "name": "grunt-lockfile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add a lockfile to your grunt build to keep multiple instance of the build from running at the same time.",
   "repository": "https://github.com/JoeFirebaugh/grunt-lockfile",
   "author": {
